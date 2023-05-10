@@ -24,8 +24,17 @@ Esta es una extensión de Google Chrome que te permite bloquear enlaces no desea
 
 ## Preview
 
-![Bloquear](https://github.com/instak1ll/site-block-kuki/assets/63525176/a7e6b690-936f-44ab-92f8-12f3075e9a76)
-![Desbloquear](https://github.com/instak1ll/site-block-kuki/assets/63525176/974f4cc0-7782-4bf8-b3d1-7cc78abe5638)
+![Bloquear](https://github.com/instak1ll/site-block-kuki/assets/63525176/01834f4f-193e-4017-9ec2-c4eb61bd0229)
+
+![Desbloquear](https://github.com/instak1ll/site-block-kuki/assets/63525176/9c8ea099-74f2-4902-8dee-9c49d0f6d8be)
+
+
+<video width="320" height="240" controls>
+  <source src="1.mp4" type="video/mp4">
+</video> 
+<video width="320" height="240" controls>
+  <source src="2.mp4" type="video/mp4">
+</video> 
 
 ## Contribución
 
