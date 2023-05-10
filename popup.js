@@ -17,4 +17,22 @@ document.addEventListener('DOMContentLoaded', function () {
             linkInput.value = '';
         });
     });
+
+    var removeButton = document.getElementById('removeButton');
+
+    // Eliminar el enlace al hacer clic en el botón "Eliminar"
+    removeButton.addEventListener('click', function () {
+        var link = linkInput.value;
+
+        // Enviar mensaje al background script para desbloquear el enlace
+        chrome.runtime.sendMessage({ action: "unblockLink", link: link }, function (response) {
+            // Mostrar una notificación de éxito
+            var notification = document.createElement('div');
+            notification.textContent = response.message;
+            document.body.appendChild(notification);
+
+            // Restablecer el campo de entrada
+            linkInput.value = '';
+        });
+    });
 });
