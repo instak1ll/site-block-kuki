@@ -1,11 +1,13 @@
-// Variable global para almacenar el enlace bloqueado
-var blockedLink = "";
+// Variable global para almacenar los enlaces bloqueados
+var blockedLinks = ['https://twitter.com/', 'https://es.wikipedia.org/'];
 
 chrome.webRequest.onBeforeRequest.addListener(
     function (details) {
-        // Comprobar si la URL coincide con el enlace bloqueado
-        if (details.url.includes(blockedLink)) {
-            return { cancel: true };
+        // Comprobar si la URL coincide con alguno de los enlaces bloqueados
+        for (var i = 0; i < blockedLinks.length; i++) {
+            if (details.url.includes(blockedLinks[i])) {
+                return { cancel: true };
+            }
         }
     },
     { urls: ["<all_urls>"] },
@@ -16,7 +18,7 @@ chrome.webRequest.onBeforeRequest.addListener(
 chrome.runtime.onMessage.addListener(
     function (request, sender, sendResponse) {
         if (request.action === "blockLink") {
-            blockedLink = request.link;
+            blockedLinks.push(request.link);
             sendResponse({ message: "Enlace bloqueado guardado exitosamente." });
         }
     }
