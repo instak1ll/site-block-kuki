@@ -14,6 +14,8 @@ Esta es una extensión de Google Chrome que te permite bloquear enlaces no desea
 3. Habilita el "Modo de desarrollador" en la parte superior derecha de la página.
 4. Haz clic en "Cargar descomprimida" y selecciona la carpeta raíz de la extensión.
 
+https://github.com/instak1ll/site-block-kuki/assets/63525176/d33c0461-43bc-4ae8-b61f-33fa3eed1325
+
 ## Uso
 
 1. Haz clic en el ícono de la extensión en la barra de herramientas de Chrome para abrir el popup.
