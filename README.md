@@ -24,8 +24,8 @@ Esta es una extensión de Google Chrome que te permite bloquear enlaces no desea
 
 ## Preview
 
-![1.mp4](1.mp4)
-![2.mp4](2.mp4)
+![1.mp4](https://gyazo.com/dd428161752c7b43093665310129a39b)
+![2.mp4](https://gyazo.com/1402b348c6733bda695926b569ab6bb3)
 
 ## Contribución
 
