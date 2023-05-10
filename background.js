@@ -1,5 +1,5 @@
 // Variable global para almacenar los enlaces bloqueados
-var blockedLinks = ['https://twitter.com/', 'https://es.wikipedia.org/'];
+var blockedLinks = ['https://test.com/'];
 
 chrome.webRequest.onBeforeRequest.addListener(
     function (details) {
